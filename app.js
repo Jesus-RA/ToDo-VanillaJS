@@ -87,7 +87,7 @@ const printTasks = () => {
     if(Object.values(tasks).length === 0){
         taskList.innerHTML = `
         <div class="alert alert-dark text-center">
-            No pending tasks
+            No hay tareas pendientes
         </div>
         `
         return
